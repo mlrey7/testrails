@@ -1,0 +1,68 @@
+@import "_custom";
+@import "bootstrap";
+
+.btn-primary {
+    font-weight: bold;
+    border: 2px solid $primary;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.btn-outline-primary {
+    color: $dark;
+    font-weight: bold;
+    border: 2px solid $primary;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+.banner-image {
+    width: 370.78px;
+    height: 350px;
+    left: 183px;
+    top: 226px;
+}
+
+.gradient-bg {
+    background: linear-gradient(90deg, #FF837C 0%, #FECEA8 100%);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.meteorite-h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#tagline {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#byline {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.meteorite-nav-item {
+    color: $dark;
+}

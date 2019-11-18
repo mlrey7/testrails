@@ -1,2 +1,31 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+
+<div class="container-fluid gradient-bg">
+    <div class="row">
+        <div class="col-md-3 offset-md-2">
+            <div class="d-flex flex-column align-items-center">
+                <div>
+                    <h1 class="meteorite-h1">Meteorite</h1>
+                </div>
+                <div>
+                    <%= image_tag "logo_stripped.png", class: "banner-image"%>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="d-flex flex-column align-items-center">
+                <div class="pt-2">
+                    <h2 id="tagline">Take the chance.</h2>
+                </div>
+                <div>
+                    <p id="byline">Signup today. It just takes a minute.</h2>
+                </div>
+                <div class="mt-2 w-100">
+                    <button class="btn btn-outline-primary w-100">SIGN UP</button>
+                </div>
+                <div class="mt-2 w-100">
+                    <button class="btn btn-primary w-100">LOGIN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
